@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Currency Converter",
     desc: "A responsive app to convert currencies in real-time using API integration.",
-    tech: ["React", "HTML", "CSS", "API"],
+    tech: ["React", "HTML", "Tailwind", "API"],
     live: "https://currencyconvertor01.vercel.app/",
     image: "https://images.unsplash.com/photo-1580519542036-c47de6196ba5",
   },
