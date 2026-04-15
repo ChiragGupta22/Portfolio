@@ -72,7 +72,7 @@ export default function Home() {
         <div className="flex justify-center md:justify-end">
           <div className="bg-gradient-to-r from-purple-500 to-indigo-500 p-2 md:p-4 rounded-3xl">
             <img
-              src="./public/ChiragGupta.jpeg"
+              src="./ChiragGupta.jpeg"
               className="w-60 sm:w-72 md:w-96 rounded-2xl shadow-lg object-cover"
               alt="profile"
             />
