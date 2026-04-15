@@ -2,15 +2,15 @@ import { User, Code2, Briefcase } from "lucide-react";
 
 export default function About() {
   return (
-    <div className="px-6 md:px-20 py-20 bg-[#F9F9FF] " id="about">
+    <div className="px-6 md:px-20 py-20 bg-[#F9F9FF]" id="about">
       {/* Heading */}
       <h2 className="text-4xl font-bold text-center mb-12">
         About <span className="text-purple-500">Me</span>
       </h2>
 
       <div className="grid md:grid-cols-2 gap-12 items-center">
-        {/* Left Side (Image) */}
-        <div className="flex justify-center">
+        {/* Left Side (Image) - HIDDEN ON MOBILE */}
+        <div className="hidden md:flex justify-center">
           <div className="relative group">
             {/* Glow Background */}
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-blue-500 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-300"></div>
@@ -31,7 +31,7 @@ export default function About() {
 
         {/* Right Side */}
         <div>
-          <h3 className="text-2xl font-semibold mb-4">I'm Chirag Gupta </h3>
+          <h3 className="text-2xl font-semibold mb-4">I'm Chirag Gupta</h3>
 
           <p className="text-gray-600 mb-6 leading-relaxed">
             I am a passionate MERN Stack Developer focused on building fast,
