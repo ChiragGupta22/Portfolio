@@ -24,7 +24,7 @@ export default function About() {
 
             {/* Overlay */}
             <div className="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center py-2 rounded-b-2xl opacity-0 group-hover:opacity-100 transition duration-300">
-              MERN Developer 🚀
+              MERN Developer
             </div>
           </div>
         </div>
