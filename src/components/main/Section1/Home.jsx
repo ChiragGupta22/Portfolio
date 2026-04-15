@@ -49,10 +49,15 @@ export default function Home() {
               View My Work
             </button>
 
-            <button className="px-5 py-3 flex items-center justify-center gap-2 border rounded-full bg-[#EEEEF6]">
+            <a
+              href="/ChiragGupta_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-3 flex items-center justify-center gap-2 border rounded-full bg-[#EEEEF6]"
+            >
               <ArrowDownToLine size={18} />
-              Download Resume
-            </button>
+              View Resume
+            </a>
           </div>
 
           {/* Skills */}
