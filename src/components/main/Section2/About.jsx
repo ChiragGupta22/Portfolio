@@ -17,7 +17,7 @@ export default function About() {
 
             {/* Image */}
             <img
-              src="/ChiragGupta.jpeg"
+              src="/chiraggupta2.jpg"
               alt="Chirag Gupta"
               className="relative w-72 h-80 object-cover rounded-2xl shadow-xl border-4 border-white transform group-hover:scale-105 transition duration-300"
             />
