@@ -44,10 +44,12 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="mt-6 flex flex-col sm:flex-row gap-4">
-            <button className="bg-gradient-to-r from-purple-500 to-indigo-500 px-5 py-3 rounded-full text-white flex items-center justify-center gap-2">
-              <ArrowRight size={18} />
-              View My Work
-            </button>
+            <a href="#projects">
+              <button className="bg-gradient-to-r from-purple-500 to-indigo-500 px-5 py-3 rounded-full text-white flex items-center justify-center gap-2">
+                <ArrowRight size={18} />
+                View My Work
+              </button>
+            </a>
 
             <a
               href="/ChiragGupta_Resume.pdf"
